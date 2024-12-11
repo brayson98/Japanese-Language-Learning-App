@@ -1,0 +1,33 @@
+.random-word-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .random-word h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .random-word p {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  .random-word button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .random-word button:hover {
+    background-color: #0056b3;
+  }
+  
+  .random-word-btn {
+    margin-right: 20px;
+  }
