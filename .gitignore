@@ -17,7 +17,7 @@ venv/
 .env.production.local
 
 # Credentials
-*.credentials.json
+.credentials.json
 
 # Logs
 *.log
