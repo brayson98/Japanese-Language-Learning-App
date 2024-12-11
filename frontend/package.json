@@ -9,10 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.8",
     "dotenv": "^16.4.7",
-<<<<<<< HEAD
     "hanzi-writer": "^3.7.2",
-=======
->>>>>>> c01f1e8edb28fb80b6273c8c3b0facd1a7a0490c
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.1",
