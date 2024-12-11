@@ -126,9 +126,10 @@ At the end of the sprint, review the app for:
 ---
 
 **Future Enhancements**:
-Add flashcard-based games for vocabulary practice.
-Implement a scoring system for JLPT quiz attempts.
-Expand vocabulary database.
+- Add flashcard-based games for vocabulary practice.
+- Implement a scoring system for JLPT quiz attempts.
+- Expand vocabulary database.
+- Add Canvas tracing to practice stroke order.
 
 
 
