@@ -79,3 +79,20 @@
     font-size: 1.2rem;
   }
   
+  .word-revision-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .category-selection {
+    margin: 20px 0;
+  }
+  
+  .flashcard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './VocabRevision.css';
+import VocabFlashcard from '../components/VocabFlashcard';
 
 function VocabRevision() {
   const [words, setWords] = useState([]);
@@ -10,6 +11,7 @@ function VocabRevision() {
   const fetchWords = async () => {
     if (!category) {
       setError('Please select a category');
+      return;
     }
 
     try {
@@ -22,15 +24,11 @@ function VocabRevision() {
   };
 
   useEffect(() => {
-    fetchWords();
-  }, [])
+    fetchWords(); // Fetch words whenever the category changes
+  }, [category]); // This effect runs every time 'category' changes
 
   const handleCategoryChange = (e) => {
-    setCategory(e.target.value);
-  };
-
-  const handleSearch = () => {
-    fetchWords();
+    setCategory(e.target.value); // Update category when dropdown value changes
   };
 
   const speakWord = async (word) => {
@@ -44,13 +42,12 @@ function VocabRevision() {
     } catch (error) {
       console.error('Error with text-to-speech:', error);
     }
-  }
+  };
 
   return (
     <div className="word-revision-container">
       <h2>Word Revision</h2>
 
-      
       <div className="category-selection">
         <label htmlFor="category">Choose a category:</label>
         <select
@@ -65,25 +62,19 @@ function VocabRevision() {
         </select>
       </div>
 
-      
-      <div className="search-button">
-        <button onClick={handleSearch}>Load Words</button>
-      </div>
-
-      
       {error && <p className="error">{error}</p>}
 
-     
       {words.length > 0 ? (
-        <div className="word-revision">
+        <div className="flashcard-grid">
           {words.map((word, index) => (
-            <div key={index} className="word-card">
-              <h3>Kanji: {word.kanji}</h3>
-              <h4>Hiragana: {word.hiragana}</h4>
-              <p>Meaning: {word.meaning}</p>
-              <p>Romaji: {word.romaji}</p>
-              <button onClick={() => speakWord(word.hiragana)}>How to pronounce</button>
-            </div>
+            <VocabFlashcard
+              key={index}
+              word={word.kanji || word.hiragana} // Show Kanji or Hiragana on the front
+              meaning={word.meaning}
+              romaji={word.romaji}
+              furigana={word.hiragana} // Furigana for learning Kanji pronunciation
+              speakWord={speakWord}
+            />
           ))}
         </div>
       ) : (
