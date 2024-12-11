@@ -1,0 +1,523 @@
+{ "verbs" : [ 
+    {
+        "kanji": "食べる",
+        "hiragana": "たべる",
+        "romaji": "taberu",
+        "meaning": "to eat"
+    },
+    {
+        "kanji": "飲む",
+        "hiragana": "のむ",
+        "romaji": "nomu",
+        "meaning": "to drink"
+    },
+    {
+        "kanji": "行く",
+        "hiragana": "いく",
+        "romaji": "iku",
+        "meaning": "to go"
+    },
+    {
+        "kanji": "来る",
+        "hiragana": "くる",
+        "romaji": "kuru",
+        "meaning": "to come"
+    },
+    {
+        "kanji": "見る",
+        "hiragana": "みる",
+        "romaji": "miru",
+        "meaning": "to see"
+    },
+    {
+        "kanji": "聞く",
+        "hiragana": "きく",
+        "romaji": "kiku",
+        "meaning": "to ask, to listen"
+    },
+    {
+        "kanji": "寝る",
+        "hiragana": "ねる",
+        "romaji": "neru",
+        "meaning": "to sleep"
+    },
+    {
+        "kanji": "起きる",
+        "hiragana": "おきる",
+        "romaji": "okiru",
+        "meaning": "to wake up"
+    },
+    {
+        "kanji": "話す",
+        "hiragana": "はなす",
+        "romaji": "hanasu",
+        "meaning": "to speak"
+    },
+    {
+        "kanji": "書く",
+        "hiragana": "かく",
+        "romaji": "kaku",
+        "meaning": "to write"
+    },
+    {
+        "kanji": "読む",
+        "hiragana": "よむ",
+        "romaji": "yomu",
+        "meaning": "to read"
+    },
+    {
+        "kanji": "遊ぶ",
+        "hiragana": "あそぶ",
+        "romaji": "asobu",
+        "meaning": "to play"
+    },
+    {
+        "kanji": "作る",
+        "hiragana": "つくる",
+        "romaji": "tsukuru",
+        "meaning": "to make"
+    },
+    {
+        "kanji": "買う",
+        "hiragana": "かう",
+        "romaji": "kau",
+        "meaning": "to buy"
+    },
+    {
+        "kanji": "売る",
+        "hiragana": "うる",
+        "romaji": "uru",
+        "meaning": "to sell"
+    },
+    {
+        "kanji": "歩く",
+        "hiragana": "あるく",
+        "romaji": "aruku",
+        "meaning": "to walk"
+    },
+    {
+        "kanji": "走る",
+        "hiragana": "はしる",
+        "romaji": "hashiru",
+        "meaning": "to run"
+    },
+    {
+        "kanji": "待つ",
+        "hiragana": "まつ",
+        "romaji": "matsu",
+        "meaning": "to wait"
+    },
+    {
+        "kanji": "知る",
+        "hiragana": "しる",
+        "romaji": "shiru",
+        "meaning": "to know"
+    },
+    {
+        "kanji": "会う",
+        "hiragana": "あう",
+        "romaji": "au",
+        "meaning": "to meet"
+    },
+    {
+        "kanji": "取る",
+        "hiragana": "とる",
+        "romaji": "toru",
+        "meaning": "to take"
+    },
+    {
+        "kanji": "教える",
+        "hiragana": "おしえる",
+        "romaji": "oshieru",
+        "meaning": "to teach"
+    },
+    {
+        "kanji": "習う",
+        "hiragana": "ならう",
+        "romaji": "narau",
+        "meaning": "to learn"
+    },
+    {
+        "kanji": "帰る",
+        "hiragana": "かえる",
+        "romaji": "kaeru",
+        "meaning": "to return, to go back"
+    },
+    {
+        "kanji": "登る",
+        "hiragana": "のぼる",
+        "romaji": "noboru",
+        "meaning": "to climb"
+    },
+    {
+        "kanji": "降りる",
+        "hiragana": "おりる",
+        "romaji": "oriru",
+        "meaning": "to get off (a vehicle)"
+    }
+], 
+"animals": [
+    {
+        "kanji": "犬",
+        "hiragana": "いぬ",
+        "romaji": "inu",
+        "meaning": "dog"
+      },
+      {
+        "kanji": "猫",
+        "hiragana": "ねこ",
+        "romaji": "neko",
+        "meaning": "cat"
+      },
+      {
+        "kanji": "鳥",
+        "hiragana": "とり",
+        "romaji": "tori",
+        "meaning": "bird"
+      },
+      {
+        "kanji": "馬",
+        "hiragana": "うま",
+        "romaji": "uma",
+        "meaning": "horse"
+      },
+      {
+        "kanji": "魚",
+        "hiragana": "さかな",
+        "romaji": "sakana",
+        "meaning": "fish"
+      },
+      {
+        "kanji": "牛",
+        "hiragana": "うし",
+        "romaji": "ushi",
+        "meaning": "cow"
+      },
+      {
+        "kanji": "豚",
+        "hiragana": "ぶた",
+        "romaji": "buta",
+        "meaning": "pig"
+      },
+      {
+        "kanji": "羊",
+        "hiragana": "ひつじ",
+        "romaji": "hitsuji",
+        "meaning": "sheep"
+      },
+      {
+        "kanji": "馬鹿",
+        "hiragana": "ばか",
+        "romaji": "baka",
+        "meaning": "fool (slang for donkey)"
+      },
+      {
+        "kanji": "狼",
+        "hiragana": "おおかみ",
+        "romaji": "ookami",
+        "meaning": "wolf"
+      },
+      {
+        "kanji": "狐",
+        "hiragana": "きつね",
+        "romaji": "kitsune",
+        "meaning": "fox"
+      },
+      {
+        "kanji": "虎",
+        "hiragana": "とら",
+        "romaji": "tora",
+        "meaning": "tiger"
+      },
+      {
+        "kanji": "象",
+        "hiragana": "ぞう",
+        "romaji": "zou",
+        "meaning": "elephant"
+      },
+      {
+        "kanji": "猿",
+        "hiragana": "さる",
+        "romaji": "saru",
+        "meaning": "monkey"
+      },
+      {
+        "kanji": "鹿",
+        "hiragana": "しか",
+        "romaji": "shika",
+        "meaning": "deer"
+      },
+      {
+        "kanji": "鯨",
+        "hiragana": "くじら",
+        "romaji": "kujira",
+        "meaning": "whale"
+      },
+      {
+        "kanji": "亀",
+        "hiragana": "かめ",
+        "romaji": "kame",
+        "meaning": "turtle"
+      },
+      {
+        "kanji": "カンガルー",
+        "hiragana": "かんがるー",
+        "romaji": "kangaruu",
+        "meaning": "kangaroo"
+      },
+      {
+        "kanji": "ライオン",
+        "hiragana": "らいおん",
+        "romaji": "raion",
+        "meaning": "lion"
+      },
+      {
+        "kanji": "リス",
+        "hiragana": "りす",
+        "romaji": "risu",
+        "meaning": "squirrel"
+      }
+], "adjectives": [
+    {
+      "kanji": "大きい",
+      "hiragana": "おおきい",
+      "romaji": "ookii",
+      "meaning": "big"
+    },
+    {
+      "kanji": "小さい",
+      "hiragana": "ちいさい",
+      "romaji": "chiisai",
+      "meaning": "small"
+    },
+    {
+      "kanji": "新しい",
+      "hiragana": "あたらしい",
+      "romaji": "atarashii",
+      "meaning": "new"
+    },
+    {
+      "kanji": "古い",
+      "hiragana": "ふるい",
+      "romaji": "furui",
+      "meaning": "old (thing)"
+    },
+    {
+      "kanji": "美しい",
+      "hiragana": "うつくしい",
+      "romaji": "utsukushii",
+      "meaning": "beautiful"
+    },
+    {
+      "kanji": "速い",
+      "hiragana": "はやい",
+      "romaji": "hayai",
+      "meaning": "fast"
+    },
+    {
+      "kanji": "遅い",
+      "hiragana": "おそい",
+      "romaji": "osoi",
+      "meaning": "slow"
+    },
+    {
+      "kanji": "高い",
+      "hiragana": "たかい",
+      "romaji": "takai",
+      "meaning": "high, expensive"
+    },
+    {
+      "kanji": "安い",
+      "hiragana": "やすい",
+      "romaji": "yasui",
+      "meaning": "cheap"
+    },
+    {
+      "kanji": "難しい",
+      "hiragana": "むずかしい",
+      "romaji": "muzukashii",
+      "meaning": "difficult"
+    },
+    {
+      "kanji": "簡単",
+      "hiragana": "かんたん",
+      "romaji": "kantan",
+      "meaning": "easy, simple"
+    },
+    {
+      "kanji": "静か",
+      "hiragana": "しずか",
+      "romaji": "shizuka",
+      "meaning": "quiet"
+    },
+    {
+      "kanji": "賢い",
+      "hiragana": "かしこい",
+      "romaji": "kashikoi",
+      "meaning": "smart"
+    },
+    {
+      "kanji": "面白い",
+      "hiragana": "おもしろい",
+      "romaji": "omoshiroi",
+      "meaning": "interesting, funny"
+    },
+    {
+      "kanji": "優しい",
+      "hiragana": "やさしい",
+      "romaji": "yasashii",
+      "meaning": "kind"
+    },
+    {
+      "kanji": "強い",
+      "hiragana": "つよい",
+      "romaji": "tsuyoi",
+      "meaning": "strong"
+    },
+    {
+      "kanji": "弱い",
+      "hiragana": "よわい",
+      "romaji": "yowai",
+      "meaning": "weak"
+    },
+    {
+      "kanji": "暗い",
+      "hiragana": "くらい",
+      "romaji": "kurai",
+      "meaning": "dark"
+    },
+    {
+      "kanji": "明るい",
+      "hiragana": "あかるい",
+      "romaji": "akarui",
+      "meaning": "bright"
+    },
+    {
+      "kanji": "楽しい",
+      "hiragana": "たのしい",
+      "romaji": "tanoshii",
+      "meaning": "fun"
+    }
+  ], "numbers": [
+    {
+        "kanji": "一",
+        "hiragana": "いち",
+        "romaji": "ichi",
+        "meaning": "one"
+      },
+      {
+        "kanji": "二",
+        "hiragana": "に",
+        "romaji": "ni",
+        "meaning": "two"
+      },
+      {
+        "kanji": "三",
+        "hiragana": "さん",
+        "romaji": "san",
+        "meaning": "three"
+      },
+      {
+        "kanji": "四",
+        "hiragana": "し、よん",
+        "romaji": "shi, yon",
+        "meaning": "four"
+      },
+      {
+        "kanji": "五",
+        "hiragana": "ご",
+        "romaji": "go",
+        "meaning": "five"
+      },
+      {
+        "kanji": "六",
+        "hiragana": "ろく",
+        "romaji": "roku",
+        "meaning": "six"
+      },
+      {
+        "kanji": "七",
+        "hiragana": "しち、なな",
+        "romaji": "shichi, nana",
+        "meaning": "seven"
+      },
+      {
+        "kanji": "八",
+        "hiragana": "はち",
+        "romaji": "hachi",
+        "meaning": "eight"
+      },
+      {
+        "kanji": "九",
+        "hiragana": "きゅう、く",
+        "romaji": "kyuu, ku",
+        "meaning": "nine"
+      },
+      {
+        "kanji": "十",
+        "hiragana": "じゅう",
+        "romaji": "juu",
+        "meaning": "ten"
+      },
+      {
+        "kanji": "百",
+        "hiragana": "ひゃく",
+        "romaji": "hyaku",
+        "meaning": "hundred"
+      },
+      {
+        "kanji": "千",
+        "hiragana": "せん",
+        "romaji": "sen",
+        "meaning": "thousand"
+      },
+      {
+        "kanji": "万",
+        "hiragana": "まん",
+        "romaji": "man",
+        "meaning": "ten thousand"
+      },
+      {
+        "kanji": "億",
+        "hiragana": "おく",
+        "romaji": "oku",
+        "meaning": "hundred million"
+      },
+      {
+        "kanji": "千円",
+        "hiragana": "せんえん",
+        "romaji": "sen-en",
+        "meaning": "thousand yen"
+      },
+      {
+        "kanji": "一千",
+        "hiragana": "いっせん",
+        "romaji": "issen",
+        "meaning": "one thousand"
+      },
+      {
+        "kanji": "十万",
+        "hiragana": "じゅうまん",
+        "romaji": "juu-man",
+        "meaning": "hundred thousand"
+      },
+      {
+        "kanji": "二千",
+        "hiragana": "にせん",
+        "romaji": "nisen",
+        "meaning": "two thousand"
+      },
+      {
+        "kanji": "百万円",
+        "hiragana": "ひゃくまんえん",
+        "romaji": "hyakuman-en",
+        "meaning": "one million yen"
+      },
+      {
+        "kanji": "一億",
+        "hiragana": "いちおく",
+        "romaji": "ichi-oku",
+        "meaning": "one hundred million"
+      }
+  ]
+}

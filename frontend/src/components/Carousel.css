@@ -1,0 +1,66 @@
+/* Carousel.css */
+
+.carousel-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .slick-slide img {
+    width: 100%;               /* Ensures image fills the container */
+    height: 700px;             /* Sets a fixed height for all images */
+    object-fit: cover;         /* Maintains aspect ratio while filling the container */
+    border-radius: 10px;
+  }
+  
+  .slick-dots {
+    bottom: 10px;              /* Positions dots above the bottom */
+    z-index: 1;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 16px;           /* Size of the dot */
+    color: #fff;               /* White color for dots */
+  }
+  
+  .carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-slide p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 80%;
+  }
+  
+  .carousel-container .slick-prev,
+  .carousel-container .slick-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 2;
+  }
+  
+  .carousel-container .slick-prev:hover,
+  .carousel-container .slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-slide p {
+      font-size: 18px;
+      bottom: 15px;
+    }
+  }
+  
