@@ -23,5 +23,10 @@ credentials.json
 *.log
 *.log.*
 
+# Cache and build files
+node_modules/
+frontend/node_modules/.cache/
+frontend/dist/
+
 # Misc
 .DS_Store
