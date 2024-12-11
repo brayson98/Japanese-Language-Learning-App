@@ -143,4 +143,9 @@ def get_words_by_category():
         return jsonify({"error": str(e)}), 500
         
 
+<<<<<<< HEAD
 
+=======
+   
+    
+>>>>>>> c01f1e8edb28fb80b6273c8c3b0facd1a7a0490c
