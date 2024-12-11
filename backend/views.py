@@ -143,5 +143,4 @@ def get_words_by_category():
         return jsonify({"error": str(e)}), 500
         
 
-   
-    
+
